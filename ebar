@@ -1,0 +1,4 @@
+#!/usr/bin/env escript
+main(_) ->
+  io:format("~p", init:get_plain_arguments()),
+  io:format("Hello World!~n").
